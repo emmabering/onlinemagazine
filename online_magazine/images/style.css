@@ -1,0 +1,32 @@
+/* med et undermenu-niveau */
+.submenu { display: none; }
+.menu>li:hover>.submenu. {display: inline;}
+
+
+
+
+
+/*
+Hvis der er behov for flere niveauer, så prøv:
+
+.menu li>ul { display: none; }
+.menu li:hover>ul { display: block; }
+*/
+
+/* responsive regler */
+@media screen and (max-width: 401px) {
+  body {
+    background-color: #edc8a1;
+    color: #fff;
+    font-size: 200%;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  body {
+    background-color: #ebeda1;
+    color: #fff;
+    font-size: 110%;
+  }
+}
+/* @uri: https://www.w3schools.com/css/css3_mediaqueries.asp */
